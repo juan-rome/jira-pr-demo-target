@@ -2,6 +2,7 @@
   "name": "jira-pr-demo-target",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Tiny sample app used as the target repo for the jira-to-pr-workflow demo",
   "scripts": {
     "test": "node --test"

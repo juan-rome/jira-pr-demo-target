@@ -36,6 +36,17 @@ textarea {
   resize: vertical;
 }
 
+.char-counter {
+  margin: 0.4rem 0 0;
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.char-counter.near-limit {
+  color: #c0392b;
+  font-weight: 600;
+}
+
 button {
   margin-top: 1rem;
   padding: 0.6rem 1.25rem;

@@ -11,10 +11,11 @@
       <h1>Send us feedback</h1>
       <form id="feedback-form">
         <label for="message">Your feedback</label>
-        <textarea id="message" name="message" rows="6"></textarea>
+        <textarea id="message" name="message" rows="6" maxlength="500"></textarea>
+        <p id="char-counter" class="char-counter" aria-live="polite">500 characters remaining</p>
         <button type="submit">Submit</button>
       </form>
     </main>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
