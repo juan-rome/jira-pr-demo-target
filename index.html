@@ -8,13 +8,16 @@
   </head>
   <body>
     <main class="feedback">
-      <h1>Send us feedback</h1>
+      <div class="feedback-header">
+        <h1>Send us feedback</h1>
+        <button id="theme-toggle" type="button" aria-label="Toggle dark mode">🌙</button>
+      </div>
       <form id="feedback-form">
         <label for="message">Your feedback</label>
         <textarea id="message" name="message" rows="6"></textarea>
         <button type="submit">Submit</button>
       </form>
     </main>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
